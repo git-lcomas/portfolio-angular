@@ -1,0 +1,221 @@
+      <!-- inicio experiencia =========================================-->
+      <section class="experiencia" id="borde-experiencia">
+        
+        <!-- titulo -->
+        <div class="container" id="titulo-experiencia">
+          <div class="row align-items-center pt-1">
+            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+              <div>
+                <h3><strong>Experiencia</strong></h3>
+              </div>
+            </div>
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+              <!-- boton agregar -->
+              <div class="position-relative">
+                <a href="#" class="btn btn-agregar position-absolute top-50 end-0 translate-middle-y" data-bs-toggle="modal" data-bs-target="#agregarExpModal" title="Agregar experiencia">
+                  <i class="fa-solid fa-circle-plus fa-lg fa-beat-fade "></i>                  
+                </a>
+              </div>
+              <!-- fin boton agregar -->
+            </div>
+          </div>
+          
+        </div>
+        <!-- fin titulo -->
+        <div class="container" id="experiencia">
+          <!-- trabajo castillo -->
+          <div class="row align-items-center pt-3">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+              <a href="https://castillo.com.ar/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/logo_castillo1.png" id="logo-castillo" alt="Logo Castillo" title="Castillo"></a>
+              <!-- <img class="logo-castillo" src="assets/img/logo_castillo.png" alt="Logo Castillo" title="Castillo"></a> -->
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+              <div class="row">
+                <div class="col-sm-10">
+                  <div class="lugar"><h4><strong>Castillo SACIFIA</strong></h4></div>
+                </div>
+              
+                <!-- botones editar y eliminar -->
+                <div class="col-sm-2">
+                  <div class="btn-edt">
+                    <a href="#" class="btn btn-edit" data-bs-toggle="modal" data-bs-target="#editExpCastillo" title="Editar">
+                      <i class="fa fa-pen"></i>
+                    </a>
+                    <a href="#" class="btn btn-eliminar" data-bs-toggle="modal" data-bs-target="#eliminarExpCastillo" title="Eliminar">
+                      <i class="fa fa-trash"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- fin botones editar y eliminar -->
+              </div>
+              <div class="puesto"><h5>Programación y mesa de ayuda</h5></div>
+              <div class="periodo"><h5>Jun 2016 - actualidad - 6 años y 2 meses</h5></div>
+              <ul class="tareas">
+                <li><h5>Atención telefónica y resolución de problemas de clientes internos</h5></li>
+                <li><h5>Programación y mejora de sistemas</h5></li>
+              </ul>
+            </div>
+          </div>
+          <!-- fin trabajo castillo -->
+          <!-- trabajo cofaral -->
+          <div class="row align-items-center pt-3">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+              <a href="https://cofaral.com.ar/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/logo-cofaral.svg" id="logo-cofaral" alt="Logo Cofaral" title="Cofaral"></a>
+              <!-- <img class="logo-cofaral" src="assets/img/logo-cofaral.svg" alt="Logo Cofaral" title="Cofaral"></a> -->
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+              <div class="row">
+                <div class="col-sm-10">
+                  <div class="lugar"><h4><strong>Cofaral LTDA</strong></h4></div>
+                </div>
+            
+                <!-- botones editar y eliminar -->
+                <div class="col-sm-2">
+                  <div class="btn-edt">
+                    <a href="#" class="btn btn-edit" title="Editar">
+                      <i class="fa fa-pen"></i>
+                    </a>
+                    <a href="#" class="btn btn-eliminar" title="Eliminar">
+                      <i class="fa fa-trash"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- fin botones editar y eliminar -->
+              </div>
+                              
+              <div class="puesto"><h5>Programación y mesa de ayuda</h5></div>
+              <div class="periodo"><h5>Abr 2000 - Abr 2016 - 16 años</h5></div>
+              <ul class="tareas">
+                <li><h5>Atención telefónica y resolución de problemas de clientes internos</h5></li>
+                <li><h5>Programación y mejora de sistemas</h5></li>
+                <li><h5>Reparación y mantenimiento de hardware</h5></li>
+                <li><h5>Soporte técnico y capacitaciones</h5></li>
+              </ul>
+            </div>
+          </div>
+          <!-- fin trabajo cofaral -->
+        </div>
+        <!-- ===== MODALES AGREGAR, EDITAR, ELIMINAR -->
+        <!--inicio modal agregar experiencia -->
+        <div>
+          <div class="modal fade" id="agregarExpModal" tabindex="-1" aria-labelledby="agregarExpModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="agregarExpModalLabel">Agregar experiencia</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--form agregar -->
+                  <form>
+                    <div class="form-group">
+                      <div class="mb-1">
+                        <label for="formFile" class="form-label">Logo:</label>
+                        <input class="form-control" type="file" id="formFileAgregaLogoExp">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput1" class="form-label">Empresa:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput2" class="form-label">Puesto:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput3" class="form-label">Período:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-3">
+                        <label for="textareaAgregaExp" class="form-label">Tareas:</label>
+                        <textarea class="form-control" id="textareaAgregaExp" rows="3"></textarea>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!--pie del modal-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark">Guardar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin modal agregar experiencia -->
+        <!--inicio modal editar experiencia Castillo-->
+        <div>
+          <div class="modal fade" id="editExpCastillo" tabindex="-1" aria-labelledby="editExpCastilloLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="editExpCastilloLabel">Editar experiencia Castillo</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--form agregar -->
+                  <form>
+                    <div class="form-group">
+                      <div class="mb-1">
+                        <label for="formFile" class="form-label">Logo:</label>
+                        <input class="form-control" type="file" id="formFileEditExpCastillo">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput1" class="form-label">Empresa:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput2" class="form-label">Puesto:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput3" class="form-label">Período:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-3">
+                        <label for="textareaEditExpCastillo" class="form-label">Tareas:</label>
+                        <textarea class="form-control" id="textareaEditExpCastillo" rows="3"></textarea>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!--pie del modal-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark">Guardar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin modal editar experiencia Castillo-->
+        <!--inicio modal eliminar experiencia Castillo -->
+        <div>
+          <div class="modal fade" id="eliminarExpCastillo" tabindex="-1" aria-labelledby="eliminarExpCastilloLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="eliminarExpCastilloLabel">Eliminar experiencia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!--form -->
+                    <form>
+                      <div class="form-group">
+                        <div class="mb-3">
+                          <label for="FormControlInput1" class="form-label">Está seguro de eliminar?</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!--pie del modal-->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark">Si</button>
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Salir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--Fin modal eliminar experiencia Castillo--> 
+      </section>
+      <!-- Fin experiencia -->

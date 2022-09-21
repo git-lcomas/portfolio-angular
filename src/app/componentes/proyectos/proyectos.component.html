@@ -1,0 +1,169 @@
+      <!-- Inicio proyectos ===========================================-->
+      <section class="proyectos" id="borde-proyectos">
+        <!-- titulo -->
+        <div class="container"  id="titulo-proyectos">
+          <div class="row align-items-center pt-1">
+            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 ">
+              <div>
+                <h3><strong>Proyectos</strong></h3>
+              </div>
+            </div>
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+              <!-- boton agregar -->
+              <div class="position-relative">
+                <a href="#" class="btn btn-agregar position-absolute top-50 end-0 translate-middle-y" data-bs-toggle="modal" data-bs-target="#agregarProy" title="Agregar proyecto">
+                  <i class="fa-solid fa-circle-plus fa-lg fa-beat-fade "></i>                  
+                </a>
+              </div>
+              <!-- fin boton agregar -->
+            </div>
+          </div>
+        </div> 
+
+        <!-- fin titulo -->
+        
+        <div class="container" id="proyectos">
+          <!-- Inicio proyecto portfolio -->
+          <div class="row align-items-center pt-3">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="assets/img/logo-proyectos-portfolio.jpg" id="logo-fullstack" alt="Logo proyectos" title="Full Stack" style></a>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9" id="proy-portfolio">
+              <div class="row">
+                <div class="col-sm-10">
+                  <div class="lugar"><h4><strong>Portfolio Full Stack</strong></h4></div>
+                </div>
+                <!-- botones editar y eliminar -->
+                <div class="col-sm-2">
+                  <div class="btn-edt">
+                    <a href="#" class="btn btn-edit" data-bs-toggle="modal" data-bs-target="#editProyPortfolio" title="Editar">
+                      <i class="fa fa-pen"></i>
+                    </a>
+                    <a href="#" class="btn btn-eliminar" data-bs-toggle="modal" data-bs-target="#elimProyPortfolio" title="Eliminar">
+                      <i class="fa fa-trash"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- fin botones editar y eliminar --> 
+              </div> 
+              <div class="descrip1"><h5>Tecnologías utilizadas:</h5></div>
+              <div class="descrip2"><h5>HTML - CSS- Bootstrap - Typescript - Angular (Javascript) - Java (Spring Boot) - MySQL</h5></div>
+              <div class="perdiodo"><h5>Jun 2022 - Ene 2023</h5></div>
+            </div>
+          </div>
+          <!-- fin proyecto portfolio -->
+        </div>
+        <!--inicio modal agregar proyecto -->
+        <div>
+          <div class="modal fade" id="agregarProy" tabindex="-1" aria-labelledby="agregarProyLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="agregarProyLabel">Agregar proyecto</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--form agregar -->
+                  <form>
+                    <div class="form-group">
+                      <div class="mb-1">
+                        <label for="formFile" class="form-label">Logo:</label>
+                        <input class="form-control" type="file" id="formFileAgregaLogoProy">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput1" class="form-label">Nombre:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput2" class="form-label">Descripción:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput2" class="form-label">Período:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!--pie del modal-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark">Guardar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Fin modal agregar proyecto --> 
+        <!-- inicio modal editar proyecto Portfolio -->
+        <div>
+          <div class="modal fade" id="editProyPortfolio" tabindex="-1" aria-labelledby="editProyPortfolioLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="editProyPortfolioLabel">Editar proyecto Portfolio</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--form agregar -->
+                  <form>
+                    <div class="form-group">
+                      <div class="mb-1">
+                        <label for="formFile" class="form-label">Logo:</label>
+                        <input class="form-control" type="file" id="formFileEditLogoProy">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput1" class="form-label">Nombre:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput2" class="form-label">Descripción:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                      <div class="mb-1">
+                        <label for="FormControlInput2" class="form-label">Período:</label>
+                        <input class="form-control" type="text" placeholder="" aria-label="">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!--pie del modal-->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-dark">Guardar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin modal editar proyecto Portfolio -->
+        <!-- inicio modal eliminar proyecto Portfolio -->
+        <div>
+          <div class="modal fade" id="elimProyPortfolio" tabindex="-1" aria-labelledby="elimProyPortfolioLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="elimProyPortfolioLabel">Eliminar proyecto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!--form -->
+                    <form>
+                      <div class="form-group">
+                        <div class="mb-3">
+                          <label for="FormControlInput1" class="form-label">Está seguro de eliminar?</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!--pie del modal-->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark">Si</button>
+                    <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Salir</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Fin modal eliminar proyecto Portfolio --> 
+      </section>
+      <!-- Fin proyectos -->

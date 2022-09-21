@@ -1,0 +1,44 @@
+<!-- inicio banner -->
+<div class="row">
+    <div class="col-12">
+        <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner banner">
+                <div class="carousel-item active">
+                    <img src="assets/img/banner.png" class="banner1 d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fotógafo profesional.</h5>
+                        <p>"Si sabes esperar, la gente se olvidará de tu cámara y su alma saldrá a la luz."
+                        -- Steve McCurry.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/banner2.png" class="banner1 d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Programador Full Stack Jr.</h5>
+                        <p>"El buen código es su mejor documentación"
+                        -- Steve McConnel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative">
+                <div class="btn-edit">
+                    <a href="#" class="btn position-absolute top-0 end-0" data-bs-toggle="modal" data-bs-target="#bannerModal" title="Editar banner">
+                        <i class="fa fa-pen"></i>
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<app-modal-edt-banner></app-modal-edt-banner>
+
+<!-- fin banner -->

@@ -1,0 +1,68 @@
+<!-- inicio info profesional -->
+<div class="row">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+        <app-titulos></app-titulos>
+    </div>
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9" id="sobre-mi">
+        <app-sobre-mi></app-sobre-mi>
+    </div>
+    <!--inicio modal edicion sobre mi -->
+    <div>
+        <div class="modal fade" id="sobreMiModal" tabindex="-1" aria-labelledby="sobreMiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="sobreMiModalLabel">Sobre Mi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!--form seleccionar foto -->
+                <form>
+                <div class="form-group">
+                    <div class="mb-3">
+                    <label for="textareaSobreMi" class="form-label">Ingrese información resumida sobre usted:</label>
+                    <textarea class="form-control" id="textareaSobreMi" rows="3"></textarea>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <!--pie del modal-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark">Guardar</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Fin modal edicion sobre mi-->
+    <!--inicio modal eliminar sobre mi -->
+    <div>
+        <div class="modal fade" id="eliminarSobreMiModal" tabindex="-1" aria-labelledby="eliminarSobreMiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="eliminarSobreMiModalLabel">Eliminar sobre mi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!--form -->
+                <form>
+                <div class="form-group">
+                    <div class="mb-3">
+                    <label for="FormControlInput1" class="form-label">Está seguro de eliminar?</label>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <!--pie del modal-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark">Si</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Salir</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Fin modal eliminar sobre mi-->
+</div>
+<!-- fin info profesional -->
