@@ -1,0 +1,27 @@
+{
+    "name": "Luis Comas",
+    "backImage": "src/assets/img/banner.png",
+    "image": "",
+    "position": "Programador",
+    "company": {
+        "name": "UNT",
+        "img": "",
+        "url": "http://"
+    },
+    "school": {
+        "name": "Universidad Nacional de Tucumán",
+        "img": "",
+        "url": "http://"
+    },
+    "ubication": "Tucumán (Argentina)",
+    "about": "Programador, Fotógrafo",
+    "experience": [{
+        "position": "Programador",
+        "company": "UNT",
+        "img": "",
+        "mode": "Joprnada parcial",
+        "start": "mar 1997",
+        "end": "mar 2000",
+        "timelapsed": "3 años"
+    }]
+}

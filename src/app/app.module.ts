@@ -22,8 +22,8 @@ import { FotoPerfilComponent } from './componentes/encabezado/acerca-de/foto-per
 import { InfoProfesionalComponent } from './componentes/encabezado/acerca-de/info-profesional/info-profesional.component';
 import { TitulosComponent } from './componentes/encabezado/acerca-de/info-profesional/titulos/titulos.component';
 import { SobreMiComponent } from './componentes/encabezado/acerca-de/info-profesional/sobre-mi/sobre-mi.component';
-
-
+import { PortfolioService } from './servicios/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +49,8 @@ import { SobreMiComponent } from './componentes/encabezado/acerca-de/info-profes
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
