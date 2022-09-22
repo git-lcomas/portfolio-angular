@@ -1,0 +1,12 @@
+/* iconos de redes */
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-width: 0px;
+ }
+ /* icono login */
+ .list-group-item:hover{
+     color: #ffffff;
+     transition: transform 0.1s ease-in-out;
+     transform: scale(1.25);
+ }
+ /* fin redes */

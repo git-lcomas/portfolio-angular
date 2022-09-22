@@ -1,0 +1,65 @@
+/* ==== BARRA SOCIAL VERTICAL */
+.social {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    top: 10rem;
+    box-shadow: 0 2px 6px #565656;
+    background: #f3f3f3;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    float: left;
+    list-style: none;
+    padding: .5rem .5rem;
+    text-align: center;
+    z-index: 500;
+  }
+
+  .social li:first-child {
+    margin-top: .1rem;
+  }
+
+  .social li {
+    margin-top: 40%;
+  }
+
+  .social li a {
+    position: relative;
+    display: block;
+    background-color: #dbdee1;
+    color: #4c4145;
+    text-decoration:solid;
+    text-align: center;
+    line-height: 180%;
+    width: 35px;
+    font-size: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+.barra_social:after {
+    content: '';
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: solid 1px #dbdee1;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.barra_social:hover {
+    color: #ffffff;
+    background-color: rgb(230, 159, 28);
+}
+
+.barra_social:hover:after {
+    border-color:rgb(230, 159, 28);
+}
+

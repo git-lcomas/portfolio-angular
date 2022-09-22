@@ -20,49 +20,6 @@ a:link, a:visited, a:active {
     text-decoration:none;
     color:inherit;
 }
-.navbar-brand{
-    padding-top: 0;
-    padding-bottom: 0;
-    border-bottom-right-radius: 10px;
-}
-.bd-navbar{
-    padding:0 0;
-    border-radius: 1rem;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    background-image: linear-gradient(to bottom, rgba(var(--bd-color1), 1), rgba(var(--bd-color1), 0.15));
-    box-shadow: 0 2px 6px #565656;
-    z-index: 5000;
-}
-/* iconos de redes */
-.list-group{
-   --bs-list-group-bg: transparent;
-   --bs-list-group-border-width: 0px;
-}
-/* icono login */
-.list-group-item:hover{
-    color: #ffffff;
-    transition: transform 0.1s ease-in-out;
-    transform: scale(1.25);
-}
-
-.banner{
-    box-shadow: 0 5px 10px #181818;
-    border-radius: 5px;
-    z-index: 0;
-}
-
-/* foto de perfil */
-.foto-perfil  {
-    width: 100%;
-    margin-top: -7.5rem;
-    position: relative;
-    border-radius: 50%;
-    border: 0.1rem solid;
-    border-color: white;
-    box-shadow: 0 5px 10px #181818;
-    /* filter: grayscale(100%); */
- }
  
 /* == BOTONES ================================== */
 .btn-agregar{
@@ -96,17 +53,7 @@ a:link, a:visited, a:active {
 .btn-edt-titulo{
     text-align:center;
 }
-/* == BOTON IR ARRIBA ========== */
-.up{
-    -webkit-transform: rotate(-135deg);
-    transform: rotate(-135deg);
-}
-.arrow {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
+
 /* == FUENTES ======================================================================== */
 /* font-family: 'Convergence', sans-serif;
 font-family: 'Quicksand', sans-serif;
@@ -170,10 +117,8 @@ font-family: 'Yellowtail', cursive; */
     margin: 0rem 0rem;
     padding: 0rem;
 }
-/* == VENTANA MODAL LOGIN =========================================================== */
-/* .modal-body{
-    z-index: 50000;
-} */
+/* == VENTANA MODAL =========================================================== */
+
 .modal-content{
     box-shadow: 0 10px 15px #181818;
     
@@ -190,7 +135,6 @@ font-family: 'Yellowtail', cursive; */
 #ayuda-correo {
     font-size: 0.7rem;
 }
-
 
 /* == LOGOS ========================================================================== */
 #logo-castillo, #logo-cofaral, #logo-unt, #logo-FAU, #logo-IT, #logo-AP
@@ -229,116 +173,3 @@ img:hover{
     border-radius: 0%;
     filter:drop-shadow(0 10px 15px #181818);
 }
-/* == FONDO BARRA SKILLS ============================================================= */
-
-#skill-photoshop{
-    background-color: #319eb4;
-}
-#skill-lightroom{
-    background-color: #319eb4;
-}
-#skill-HTML{
-    background-color: #494949;
-}
-#skill-CSS{
-    background-color: #ef6322;
-}
-#skill-JS{
-    background-color: #d68b21;
-}
-#skill-angular{
-    background-color: #ed420e;
-}
-#skill-bootstrap{
-    background-color: #623bdf;
-}
-
-/* == BARRA PROGRRESO ================================================================ */
-.progress {
-    border: 1px solid #ccc;
-    position: relative;
-    display: block;
-    height: 20px;
-    padding: 0;
-    min-width: 50%;
-    margin:4px 0;
-    background: #DEDEDE;
-    box-shadow: 0 2px 6px #565656;
-    
-}
-.progress-bar {
-    color: black;
-}
-
-footer{
-    padding:0 0;
-    border-radius: 1rem;
-    font-family:'Convergence', sans-serif;
-    background-image: linear-gradient(to bottom, rgba(var(--bd-color1), 1), rgba(var(--bd-color1), 0.15));
-    /* box-shadow: 0 2px 6px #565656; */
-}
-/* ==== BARRA SOCIAL VERTICAL */
-.social {
-    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-    top: 10rem;
-    box-shadow: 0 2px 6px #565656;
-    background: #f3f3f3;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    float: left;
-    list-style: none;
-    padding: .5rem .5rem;
-    text-align: center;
-    z-index: 500;
-  }
-
-  .social li:first-child {
-    margin-top: .1rem;
-  }
-
-  .social li {
-    margin-top: 40%;
-  }
-
-  .social li a {
-    position: relative;
-    display: block;
-    background-color: #dbdee1;
-    color: #4c4145;
-    text-decoration:solid;
-    text-align: center;
-    line-height: 180%;
-    width: 35px;
-    font-size: 20px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-  }
-
-.barra_social:after {
-    content: '';
-    width: 46px;
-    height: 46px;
-    text-align: center;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border: solid 1px #dbdee1;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.barra_social:hover {
-    color: #ffffff;
-    background-color: rgb(230, 159, 28);
-}
-
-.barra_social:hover:after {
-    border-color:rgb(230, 159, 28);
-}
-
