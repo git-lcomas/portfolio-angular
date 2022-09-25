@@ -1,8 +1,10 @@
 {
-    "name": "Luis Comas",
-    "backImage": "src/assets/img/banner.png",
+    "nombre": "Luis A. Comas",
+    "imgPerfil": "assets/img/perfil.jpg",
     "image": "",
-    "position": "Programador",
+    "titulo1": "Programador Visual FoxPro",
+    "titulo2": "Programador Full Stack Jr",
+    "titulo3": "Fotógrafo profesional",
     "company": {
         "name": "UNT",
         "img": "",
@@ -10,18 +12,62 @@
     },
     "school": {
         "name": "Universidad Nacional de Tucumán",
-        "img": "",
-        "url": "http://"
+        "img": "http://",
+        "url": "#"
     },
-    "ubication": "Tucumán (Argentina)",
+    "ubicacion": "Tucumán (Argentina)",
     "about": "Programador, Fotógrafo",
-    "experience": [{
+    "experiencia": [{
         "position": "Programador",
         "company": "UNT",
         "img": "",
-        "mode": "Joprnada parcial",
+        "mode": "Jornada parcial",
         "start": "mar 1997",
         "end": "mar 2000",
         "timelapsed": "3 años"
-    }]
+    }],
+    "educacion": [{
+            "school": "UNT",
+            "title": "Tecnico Constructo",
+            "img": "http://",
+            "carrera": "Tecnico",
+            "score": 0,
+            "starr": "1991",
+            "end": "1997"
+        },
+        {
+            "school": "UNT",
+            "title": "Tecnico Constructor",
+            "img": "http://",
+            "carrera": "Tecnico",
+            "score": 0,
+            "starr": "1991",
+            "end": "1997"
+        }
+    ],
+    "skills": [{
+            "name":"Photoshop",
+            "progres": 75,
+            "confirms": 2,
+            "confirmsNames": [{
+                "name":"Luis Comas"
+            }]
+        },
+        {
+            "name":"Lightroom",
+            "progres": 65,
+            "confirms": 3,
+            "confirmsNames": [{
+                "name":"Luis Comas"
+            }]
+        }
+    ],
+    "achivements": [{
+            "name": "Luis Comas"
+        },
+        {
+            "name": "xxxx 9/9"
+        }
+    ]
 }
+

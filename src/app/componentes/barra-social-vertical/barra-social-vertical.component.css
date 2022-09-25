@@ -16,11 +16,15 @@
   .social li:first-child {
     margin-top: .1rem;
   }
-
+  
+  
+  .barra_social:hover:after {
+    border-color:rgb(230, 159, 28);
+  }
   .social li {
     margin-top: 40%;
   }
-
+  
   .social li a {
     position: relative;
     display: block;
@@ -54,12 +58,8 @@
     transition: 0.3s;
 }
 
-.barra_social:hover {
-    color: #ffffff;
+.social li a.barra_social:hover {
+    color: #ffffff ;
     background-color: rgb(230, 159, 28);
-}
-
-.barra_social:hover:after {
-    border-color:rgb(230, 159, 28);
 }
 

@@ -1,15 +1,15 @@
 <!-- inicio títulos -->
 
 <div id="info-data">
-    <h1>Luis Comas</h1>
+    <h1>{{miPortfolio.nombre}}</h1>
     <div class="btn-edt-titulo">
         <a href="#" class="btn btn-edit" data-bs-toggle="modal" data-bs-target="#titulosModal" title="Editar titulos">
             <i class="fa fa-pen"></i>
         </a>
     </div>           
-    <div id="titulo1">Programador Visual FoxPro</div>
-    <div id="titulo2">Programador Full Stack Jr</div>
-    <div id="titulo3">Fotógrafo profesional</div>
+    <div id="titulo1">{{miPortfolio.titulo1}}</div>
+    <div id="titulo2">{{miPortfolio.titulo2}}</div>
+    <div id="titulo3">{{miPortfolio.titulo3}}</div>
     <!--inicio modal edicion titulos -->
     <div>
     <div class="modal fade" id="titulosModal" tabindex="-1" aria-labelledby="titulosModalLabel" aria-hidden="true">
@@ -44,7 +44,7 @@
     </div>
     <!--Fin modal edicion titulos-->
     <div id="info-contacto">
-        <span>Tucumán (Argentina)</span>
+        <span>{{miPortfolio.ubicacion}}</span>
     <div class="pt-3">
         <button type="button" class="btn btn-sm btn-outline-dark" data-bs-toggle="modal" data-bs-target="#contactoModal">Contacto</button>
     </div>
