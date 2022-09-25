@@ -24,16 +24,16 @@
         <!-- fin titulo -->
         <div class="container" id="experiencia">
           <!-- trabajo castillo -->
-          <div class="row align-items-center pt-3">
+          <div class="row align-items-center pt-3" *ngFor="let experiencia of experienciaLista">
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
-              <a href="https://castillo.com.ar/" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/logo_castillo1.png" id="logo-castillo" alt="Logo Castillo" title="Castillo"></a>
+              <a [href]="experiencia.web" target="_blank" rel="noopener noreferrer">
+                <img [src]="experiencia.logo" id="logo-castillo" alt="Logo Castillo" title="Castillo"></a>
               <!-- <img class="logo-castillo" src="assets/img/logo_castillo.png" alt="Logo Castillo" title="Castillo"></a> -->
             </div>
             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
               <div class="row">
                 <div class="col-sm-10">
-                  <div class="lugar"><h4><strong>Castillo SACIFIA</strong></h4></div>
+                  <div class="lugar"><h4><strong>{{experiencia.lugar}}</strong></h4></div>
                 </div>
               
                 <!-- botones editar y eliminar -->
@@ -49,53 +49,15 @@
                 </div>
                 <!-- fin botones editar y eliminar -->
               </div>
-              <div class="puesto"><h5>Programación y mesa de ayuda</h5></div>
-              <div class="periodo"><h5>Jun 2016 - actualidad - 6 años y 2 meses</h5></div>
-              <ul class="tareas">
-                <li><h5>Atención telefónica y resolución de problemas de clientes internos</h5></li>
-                <li><h5>Programación y mejora de sistemas</h5></li>
+              <div class="puesto"><h5>{{experiencia.puesto}}</h5></div>
+              <div class="periodo"><h5>{{experiencia.inicio}} - {{experiencia.fin}} - {{experiencia.duracion}} - {{experiencia.modo}}</h5></div>
+              <ul class="tareas" *ngFor="let tarea of experiencia.tareas">
+                <li><h5>{{tarea}}</h5></li>
               </ul>
             </div>
           </div>
           <!-- fin trabajo castillo -->
-          <!-- trabajo cofaral -->
-          <div class="row align-items-center pt-3">
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
-              <a href="https://cofaral.com.ar/" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/logo-cofaral.svg" id="logo-cofaral" alt="Logo Cofaral" title="Cofaral"></a>
-              <!-- <img class="logo-cofaral" src="assets/img/logo-cofaral.svg" alt="Logo Cofaral" title="Cofaral"></a> -->
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-              <div class="row">
-                <div class="col-sm-10">
-                  <div class="lugar"><h4><strong>Cofaral LTDA</strong></h4></div>
-                </div>
-            
-                <!-- botones editar y eliminar -->
-                <div class="col-sm-2">
-                  <div class="btn-edt">
-                    <a href="#" class="btn btn-edit" title="Editar">
-                      <i class="fa fa-pen"></i>
-                    </a>
-                    <a href="#" class="btn btn-eliminar" title="Eliminar">
-                      <i class="fa fa-trash"></i>
-                    </a>
-                  </div>
-                </div>
-                <!-- fin botones editar y eliminar -->
-              </div>
-                              
-              <div class="puesto"><h5>Programación y mesa de ayuda</h5></div>
-              <div class="periodo"><h5>Abr 2000 - Abr 2016 - 16 años</h5></div>
-              <ul class="tareas">
-                <li><h5>Atención telefónica y resolución de problemas de clientes internos</h5></li>
-                <li><h5>Programación y mejora de sistemas</h5></li>
-                <li><h5>Reparación y mantenimiento de hardware</h5></li>
-                <li><h5>Soporte técnico y capacitaciones</h5></li>
-              </ul>
-            </div>
-          </div>
-          <!-- fin trabajo cofaral -->
+
         </div>
         <!-- ===== MODALES AGREGAR, EDITAR, ELIMINAR -->
         <!--inicio modal agregar experiencia -->

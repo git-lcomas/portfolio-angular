@@ -1,7 +1,8 @@
 {
     "nombre": "Luis A. Comas",
     "imgPerfil": "assets/img/perfil.jpg",
-    "image": "",
+    "imgBanner1": "assets/img/banner.png",
+    "imgBanner2": "assets/img/banner2.png",
     "titulo1": "Programador Visual FoxPro",
     "titulo2": "Programador Full Stack Jr",
     "titulo3": "Fotógrafo profesional",
@@ -18,14 +19,35 @@
     "ubicacion": "Tucumán (Argentina)",
     "about": "Programador, Fotógrafo",
     "experiencia": [{
-        "position": "Programador",
-        "company": "UNT",
-        "img": "",
-        "mode": "Jornada parcial",
-        "start": "mar 1997",
-        "end": "mar 2000",
-        "timelapsed": "3 años"
-    }],
+        "lugar": "Castillo SACIFIA",
+        "logo": "assets/img/logo_castillo1.png",
+        "web": "https://castillo.com.ar/",
+        "puesto": "Programación y mesa de ayuda",
+        "inicio": "Jun 2016",
+        "fin": "Actualidad",
+        "modo": "Jornada comercial",
+        "duracion": "6 años y 2 meses",
+        "tareas": [
+            "Atención telefónica y resolución de problemas de clientes internos",
+            "Programación y mejora de sistemas"
+    ]},
+    {
+        "lugar": "Cofaral LTDA",
+        "logo": "assets/img/logo-cofaral.svg",
+        "web": "https://cofaral.com.ar/",
+        "puesto": "Programación y mesa de ayuda",
+        "inicio": "Abr 2000",
+        "fin": "Abr 2016",
+        "modo": "Jornada comercial",
+        "duracion": "16 años",
+        "tareas": [
+            "Atención telefónica y resolución de problemas de clientes internos",
+            "Programación y mejora de sistemas",
+            "Reparación y mantenimiento de hardware",
+            "Soporte técnico y capacitaciones"
+        ]
+    }
+    ],
     "educacion": [{
             "school": "UNT",
             "title": "Tecnico Constructo",
