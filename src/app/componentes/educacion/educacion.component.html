@@ -20,17 +20,17 @@
           </div>
         </div>  
         <!-- fin titulo -->
-        <div class="container" id="educacion">
+        <div class="container" id="educacion" *ngFor="let educacion of educacionLista">
           <!-- Inicio educacion prog uni -->
           <div class="row align-items-center pt-3">
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
-                <a href="http://www.expovirtual.unt.edu.ar/fac/exactas/programador.html" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/logo-unt.png" id="logo-unt" alt="Logo UNT" title="U.N.T."></a>
+                <a [href]="educacion.web" target="_blank" rel="noopener noreferrer">
+                <img [src]="educacion.logo" id="logo-unt" alt="Logo UNT" title="U.N.T."></a>
             </div>
             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
               <div class="row">
                 <div class="col-sm-10">
-                  <div class="lugar"><h4><strong>Universidad Nacional de Tucumán</strong></h4></div>
+                  <div class="lugar"><h4><strong>{{educacion.lugar}}</strong></h4></div>
                 </div>
                 <!-- botones editar y eliminar -->
                 <div class="col-sm-2">
@@ -45,99 +45,12 @@
                 </div>
                 <!-- fin botones editar y eliminar -->   
               </div>
-              <div class="carrera"><h5>Programador Universitario</h5></div>
-              <div class="periodo"><h5>Mar 1997 - Mar 2000 - 3 años</h5></div>
+              <div class="carrera"><h5>{{educacion.carrera}}</h5></div>
+              <div class="periodo"><h5>{{educacion.inicio}} - {{educacion.fin}} - {{educacion.duracion}}</h5></div>
             </div>
             
           </div>
           <!-- fin educacion prog uni -->
-          <!-- Inicio educacion FAU -->
-          <div class="row align-items-center pt-3">
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
-              <a href="https://www.fau.unt.edu.ar/" target="_blank" rel="noopener noreferrer">
-              <img src="assets/img/Logo-FAU.jpg" id="logo-FAU" alt="Logo FAU" title="F.A.U."></a>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-              <div class="row">
-                <div class="col-sm-10">
-                  <div class="lugar"><h4><strong>Universidad Nacional de Tucumán</strong></h4></div>
-                </div>
-                <!-- botones editar y eliminar -->
-                <div class="col-sm-2">
-                  <div class="btn-edt">
-                    <a href="#" class="btn btn-edit" title="Editar">
-                      <i class="fa fa-pen"></i>
-                    </a>
-                    <a href="#" class="btn btn-eliminar" title="Eliminar">
-                      <i class="fa fa-trash"></i>
-                    </a>
-                  </div>
-                </div>
-                <!-- fin botones editar y eliminar -->  
-              </div> 
-              <div class="carrera"><h5>Arquitectura</h5></div>
-              <div class="periodo"><h5>Abr 1992 - Dic 1995 - 4 años y 8 meses (Abandonado)</h5></div>
-            </div>
-          </div>
-          <!-- Fin educacion FAU -->
-          <!-- educacion I.T. -->
-          <div class="row align-items-center pt-3">
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
-              <a href="https://it.unt.edu.ar/" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/logo-IT.png" id="logo-IT" alt="Logo IT" title="I.T."></a>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-              <div class="row">
-                <div class="col-sm-10">
-                  <div class="lugar"><h4><strong>Instituto Técnico - U.N.T.</strong></h4></div>
-                </div>
-                <!-- botones editar y eliminar -->
-                <div class="col-sm-2">
-                  <div class="btn-edt">
-                    <a href="#" class="btn btn-edit" title="Editar">
-                      <i class="fa fa-pen"></i>
-                    </a>
-                    <a href="#" class="btn btn-eliminar" title="Eliminar">
-                      <i class="fa fa-trash"></i>
-                    </a>
-                  </div>
-                </div>
-                <!-- fin botones editar y eliminar --> 
-              </div> 
-              <div class="carrera"><h5>Técnico Constructor</h5></div>
-              <div class="periodo"><h5>Mar 1986 - Mar 1992 - 6 años</h5></div>
-            </div>
-          </div>
-          <!-- fin educacion I.T. -->
-          <!-- Inicio educacion curso full stack -->
-          <div class="row align-items-center">
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
-                <a href="hhttps://argentinaprograma.inti.gob.ar/" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/APLogo_negro.png" id="logo-AP" alt="Logo AP" title="Argentina Programa"></a>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-              <div class="row">
-                <div class="col-sm-10">
-                  <div class="lugar"><h4><strong>INTI - Ministerio de Desarrollo Productivo</strong></h4></div>
-                </div>
-                <!-- botones editar y eliminar -->
-                <div class="col-sm-2">
-                  <div class="btn-edt">
-                    <a href="#" class="btn btn-edit" title="Editar">
-                      <i class="fa fa-pen"></i>
-                    </a>
-                    <a href="#" class="btn btn-eliminar" title="Eliminar">
-                      <i class="fa fa-trash"></i>
-                    </a>
-                  </div>
-                </div>
-                <!-- fin botones editar y eliminar --> 
-              </div> 
-              <div class="carrera"><h5>Curso: Programador Full Stack Jr.</h5></div>
-              <div class="periodo"><h5>Jun 2022 - Ene 2023 - 7 meses</h5></div>
-            </div>
-          </div>
-          <!-- fin educacion curso full stack -->
         </div>
         <!--inicio modal agregar educación -->
         <div>

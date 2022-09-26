@@ -49,46 +49,140 @@
     }
     ],
     "educacion": [{
-            "school": "UNT",
-            "title": "Tecnico Constructo",
-            "img": "http://",
-            "carrera": "Tecnico",
-            "score": 0,
-            "starr": "1991",
-            "end": "1997"
+            "lugar": "Universidad Nacional de Tucumán",
+            "carrera": "Programador Universitario",
+            "logo": "assets/img/logo-unt.png",
+            "web": "http://www.expovirtual.unt.edu.ar/fac/exactas/programador.html",
+            "inicio": "Mar 1997",
+            "fin": "Mar 2000",
+            "duracion": "3 años"
         },
         {
-            "school": "UNT",
-            "title": "Tecnico Constructor",
-            "img": "http://",
-            "carrera": "Tecnico",
-            "score": 0,
-            "starr": "1991",
-            "end": "1997"
+            "lugar": "Universidad Nacional de Tucumán",
+            "carrera": "Arquitectura",
+            "logo": "assets/img/Logo-FAU.jpg",
+            "web": "https://www.fau.unt.edu.ar/",
+            "inicio": "Abr 1992",
+            "fin": "Dic 1995",
+            "duracion": "4 años y 8 meses (Abandonado)"
+        },
+        {
+            "lugar": "Instituto Técnico - U.N.T.",
+            "carrera": "Técnico Constructor",
+            "logo": "assets/img/logo-IT.png",
+            "web": "https://it.unt.edu.ar/",
+            "inicio": "Mar 1986",
+            "fin": "Mar 1992",
+            "duracion": "6 años"
+        },
+        {
+            "lugar": "INTI - Ministerio de Desarrollo Productivo",
+            "carrera": "Curso: Programador Full Stack Jr.",
+            "logo": "assets/img/APLogo_negro.png",
+            "web": "https://argentinaprograma.inti.gob.ar/",
+            "inicio": "Jun 2022",
+            "fin": "Ene 2023",
+            "duracion": "7 meses"
         }
     ],
     "skills": [{
-            "name":"Photoshop",
-            "progres": 75,
-            "confirms": 2,
-            "confirmsNames": [{
-                "name":"Luis Comas"
-            }]
+            "nombre":"Photoshop",
+            "logo": "assets/img/logo-PS.png",
+            "id_logo": "logo-PS",
+            "alt": "Logo PS",
+            "title": "PhotoShop",
+            "id_progress": "skill-photoshop",
+            "progreso": 90,
+            "title_progreso": "Progreso PhotoShop"
         },
         {
-            "name":"Lightroom",
-            "progres": 65,
-            "confirms": 3,
-            "confirmsNames": [{
-                "name":"Luis Comas"
-            }]
+            "nombre":"Lightroom",
+            "logo": "assets/img/logo-lightroom.png",
+            "id_logo": "logo-lightroom",
+            "alt": "Logo Ligtroom",
+            "title": "Lightroom",
+            "id_progress": "skill-lightroom",
+            "progreso": 85,
+            "title_progreso": "Progreso Lightroom"
+        },
+        {
+            "nombre":"HTML 5",
+            "logo": "assets/img/logo-HTML.png",
+            "id_logo": "logo-HTML",
+            "alt": "Logo HTML",
+            "title": "HTML",
+            "id_progress": "skill-HTML",
+            "progreso": 75,
+            "title_progreso": "Progreso HTML"
+        },
+        {
+            "nombre":"CSS 3",
+            "logo": "assets/img/logo-CSS.png",
+            "id_logo": "logo-CSS",
+            "alt": "Logo CSS",
+            "title": "CSS",
+            "id_progress": "skill-CSS",
+            "progreso": 65,
+            "title_progreso": "Progreso CSS"
+        },
+        {
+            "nombre":"JavaScript",
+            "logo": "assets/img/logo-JS.png",
+            "id_logo": "logo-JS",
+            "alt": "Logo JS",
+            "title": "JavaScript",
+            "id_progress": "skill-JS",
+            "progreso": 35,
+            "title_progreso": "Progreso Javascript"
+        },
+        {
+            "nombre":"Angular",
+            "logo": "assets/img/logo-angular.png",
+            "id_logo": "logo-angular",
+            "alt": "Logo Angular",
+            "title": "Angular",
+            "id_progress": "skill-angular",
+            "progreso": 35,
+            "title_progreso": "Progreso Angular"
+        },
+        {
+            "nombre":"Bootstrap 5",
+            "logo": "assets/img/logo-bootstrap.svg",
+            "id_logo": "logo-bootstrap",
+            "alt": "Logo bootstrap",
+            "title": "Bootstrap 5",
+            "id_progress": "skill-bootstrap",
+            "progreso": 50,
+            "title_progreso": "Progreso Bootstrap"
         }
     ],
-    "achivements": [{
-            "name": "Luis Comas"
+    "proyectos": [{
+            "nombre": "Portfolio Full Stack",
+            "logo": "assets/img/logo-proyectos-portfolio.jpg",
+            "id_img": "logo-fullstack",
+            "alt": "Logo proyectos",
+            "title": "Full Stack",
+            "inicio": "Jun 2022",
+            "fin": "Ene 2023",
+            "descripcion": [
+                "Tecnologías utilizadas:",
+                "Frontend: HTML - CSS- Bootstrap - Typescript - Angular (Javascript)",
+                "Backend: Java (Spring Boot) - MySQL"
+            ]
         },
         {
-            "name": "xxxx 9/9"
+            "nombre": "Portfolio Full Stack",
+            "logo": "assets/img/logo-proyectos-portfolio.jpg",
+            "id_img": "logo-fullstack",
+            "alt": "Logo proyectos",
+            "title": "Full Stack",
+            "inicio": "Jun 2022",
+            "fin": "Ene 2023",
+            "descripcion": [
+                "Tecnologías utilizadas:",
+                "Frontend: HTML - CSS- Bootstrap - Typescript - Angular (Javascript)",
+                "Backend: Java (Spring Boot) - MySQL"
+            ]
         }
     ]
 }
