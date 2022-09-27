@@ -45,7 +45,6 @@ a:link, a:visited, a:active {
     z-index: 0;
 }
 
-
 /* todos los botones editar y eliminar */
 .btn-edt{ 
     text-align: end;
@@ -68,17 +67,15 @@ font-family: 'Yellowtail', cursive; */
     font-family: 'Righteous', cursive;
 }
 #sobre-mi h4 {
-    text-align:start
+    text-align:start;
 }
 #sobre-mi, #experiencia, #educacion, #skills, #proyectos{
     font-family:'Raleway', sans-serif;
 }
-#titulo1, #titulo2, #titulo3, #info-contacto {
-    font-family: 'Ubuntu', sans-serif;
+#info-titulo, #info-contacto {
+    font-family: 'Righteous', sans-serif;
 }
-.progress h6 {
-    font-family: 'Righteous', cursive; /* porcentaje skills*/
-}
+
 .olvido-nomcla {
     font-family: 'Raleway', sans-serif;
     margin-top: 1rem;
@@ -130,6 +127,7 @@ font-family: 'Yellowtail', cursive; */
     --bs-modal-margin: 0.5rem;
     --bs-modal-color: ; */
     --bs-modal-bg: #fab17a;
+    font-family: 'Righteous', sans-serif;
 } 
 
 #ayuda-correo {
@@ -151,25 +149,7 @@ img:hover{
     transition: transform 0.1s ease-in-out;
     transform: scale(1.05);
 }
-.foto-perfil:hover{
-    transition: none;
-    transform:none;
-}
-.banner1:hover{
-    transition: none;
-    transform:none;
-}
 
-#logo-PS, #logo-lightroom, #logo-HTML, #logo-CSS, #logo-JS, #logo-angular, #logo-bootstrap
-{
-    width: 50%;
-    margin-top: 0rem;
-    border-radius: 0%;
-    filter:drop-shadow(0 10px 15px #181818);
-}
-#logo-fullstack {
-    width: 100%;
-    margin-top: 0rem;
-    border-radius: 0%;
-    filter:drop-shadow(0 10px 15px #181818);
-}
+
+
+

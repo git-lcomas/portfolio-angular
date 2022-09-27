@@ -37,3 +37,13 @@
 .progress-bar {
     color: black;
 }
+.progress h6 {
+    font-family: 'Righteous', cursive; /* porcentaje skills*/
+}
+#logo-PS, #logo-lightroom, #logo-HTML, #logo-CSS, #logo-JS, #logo-angular, #logo-bootstrap
+{
+    width: 50%;
+    margin-top: 0rem;
+    border-radius: 0%;
+    filter:drop-shadow(0 10px 15px #181818);
+}

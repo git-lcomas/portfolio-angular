@@ -1,57 +1,64 @@
 {
-    "nombre": "Luis A. Comas",
+    "nombre": "Luis Comas",
     "imgPerfil": "assets/img/perfil.jpg",
     "imgBanner1": "assets/img/banner.png",
     "imgBanner2": "assets/img/banner2.png",
-    "titulo1": "Programador Visual FoxPro",
-    "titulo2": "Programador Full Stack Jr",
-    "titulo3": "Fotógrafo profesional",
-    "company": {
-        "name": "UNT",
-        "img": "",
-        "url": "http://"
-    },
-    "school": {
-        "name": "Universidad Nacional de Tucumán",
-        "img": "http://",
-        "url": "#"
-    },
+    "titulos": [
+        "Programador Visual FoxPro",
+        "Programador Full Stack Jr",
+        "Fotógrafo profesional"
+        ]       
+    ,
     "ubicacion": "Tucumán (Argentina)",
     "about": "Programador, Fotógrafo",
     "experiencia": [{
         "lugar": "Castillo SACIFIA",
         "logo": "assets/img/logo_castillo1.png",
+        "id_logo": "logo-castillo",
+        "alt_logo": "Logo Castillo",
+        "title_logo": "Castillo",
         "web": "https://castillo.com.ar/",
         "puesto": "Programación y mesa de ayuda",
         "inicio": "Jun 2016",
         "fin": "Actualidad",
-        "modo": "Jornada comercial",
+        "modo": "Jornada completa",
         "duracion": "6 años y 2 meses",
         "tareas": [
             "Atención telefónica y resolución de problemas de clientes internos",
-            "Programación y mejora de sistemas"
-    ]},
+            "Programación y mejora de sistemas" 
+            ],
+        "edt_modal_target": "#editExpCastillo",
+        "elim_modal_target": "#eliminarExpCastillo"
+        },
     {
         "lugar": "Cofaral LTDA",
         "logo": "assets/img/logo-cofaral.svg",
+        "id_logo": "logo-cofaral",
+        "alt_logo": "Logo Cofaral",
+        "title_logo": "Cofaral",
         "web": "https://cofaral.com.ar/",
         "puesto": "Programación y mesa de ayuda",
         "inicio": "Abr 2000",
         "fin": "Abr 2016",
-        "modo": "Jornada comercial",
+        "modo": "Jornada completa",
         "duracion": "16 años",
         "tareas": [
             "Atención telefónica y resolución de problemas de clientes internos",
             "Programación y mejora de sistemas",
             "Reparación y mantenimiento de hardware",
             "Soporte técnico y capacitaciones"
-        ]
+            ],
+        "edt_modal_target": "#editExpCofaral",
+        "elim_modal_target": "#eliminarExpCofaral"
     }
     ],
     "educacion": [{
             "lugar": "Universidad Nacional de Tucumán",
             "carrera": "Programador Universitario",
             "logo": "assets/img/logo-unt.png",
+            "id_logo": "logo-unt",
+            "alt_logo": "Logo UNT",
+            "title_logo": "U.N.T.",
             "web": "http://www.expovirtual.unt.edu.ar/fac/exactas/programador.html",
             "inicio": "Mar 1997",
             "fin": "Mar 2000",
@@ -61,6 +68,9 @@
             "lugar": "Universidad Nacional de Tucumán",
             "carrera": "Arquitectura",
             "logo": "assets/img/Logo-FAU.jpg",
+            "id_logo": "logo-FAU",
+            "alt_logo": "Logo FAU",
+            "title_logo": "F.A.U.",
             "web": "https://www.fau.unt.edu.ar/",
             "inicio": "Abr 1992",
             "fin": "Dic 1995",
@@ -70,6 +80,9 @@
             "lugar": "Instituto Técnico - U.N.T.",
             "carrera": "Técnico Constructor",
             "logo": "assets/img/logo-IT.png",
+            "id_logo": "logo-IT",
+            "alt_logo": "Logo IT",
+            "title_logo": "Instituto Técnico",
             "web": "https://it.unt.edu.ar/",
             "inicio": "Mar 1986",
             "fin": "Mar 1992",
@@ -79,6 +92,9 @@
             "lugar": "INTI - Ministerio de Desarrollo Productivo",
             "carrera": "Curso: Programador Full Stack Jr.",
             "logo": "assets/img/APLogo_negro.png",
+            "id_logo": "logo-AP",
+            "alt_logo": "Logo AP",
+            "title_logo": "Argentina Programa",
             "web": "https://argentinaprograma.inti.gob.ar/",
             "inicio": "Jun 2022",
             "fin": "Ene 2023",
@@ -89,8 +105,8 @@
             "nombre":"Photoshop",
             "logo": "assets/img/logo-PS.png",
             "id_logo": "logo-PS",
-            "alt": "Logo PS",
-            "title": "PhotoShop",
+            "alt_logo": "Logo PS",
+            "title_logo": "PhotoShop",
             "id_progress": "skill-photoshop",
             "progreso": 90,
             "title_progreso": "Progreso PhotoShop"
@@ -99,8 +115,8 @@
             "nombre":"Lightroom",
             "logo": "assets/img/logo-lightroom.png",
             "id_logo": "logo-lightroom",
-            "alt": "Logo Ligtroom",
-            "title": "Lightroom",
+            "alt_logo": "Logo Ligtroom",
+            "title_logo": "Lightroom",
             "id_progress": "skill-lightroom",
             "progreso": 85,
             "title_progreso": "Progreso Lightroom"
@@ -109,8 +125,8 @@
             "nombre":"HTML 5",
             "logo": "assets/img/logo-HTML.png",
             "id_logo": "logo-HTML",
-            "alt": "Logo HTML",
-            "title": "HTML",
+            "alt_logo": "Logo HTML",
+            "title_logo": "HTML",
             "id_progress": "skill-HTML",
             "progreso": 75,
             "title_progreso": "Progreso HTML"
@@ -119,8 +135,8 @@
             "nombre":"CSS 3",
             "logo": "assets/img/logo-CSS.png",
             "id_logo": "logo-CSS",
-            "alt": "Logo CSS",
-            "title": "CSS",
+            "alt_logo": "Logo CSS",
+            "title_logo": "CSS",
             "id_progress": "skill-CSS",
             "progreso": 65,
             "title_progreso": "Progreso CSS"
@@ -129,8 +145,8 @@
             "nombre":"JavaScript",
             "logo": "assets/img/logo-JS.png",
             "id_logo": "logo-JS",
-            "alt": "Logo JS",
-            "title": "JavaScript",
+            "alt_logo": "Logo JS",
+            "title_logo": "JavaScript",
             "id_progress": "skill-JS",
             "progreso": 35,
             "title_progreso": "Progreso Javascript"
@@ -139,8 +155,8 @@
             "nombre":"Angular",
             "logo": "assets/img/logo-angular.png",
             "id_logo": "logo-angular",
-            "alt": "Logo Angular",
-            "title": "Angular",
+            "alt_logo": "Logo Angular",
+            "title_logo": "Angular",
             "id_progress": "skill-angular",
             "progreso": 35,
             "title_progreso": "Progreso Angular"
@@ -149,8 +165,8 @@
             "nombre":"Bootstrap 5",
             "logo": "assets/img/logo-bootstrap.svg",
             "id_logo": "logo-bootstrap",
-            "alt": "Logo bootstrap",
-            "title": "Bootstrap 5",
+            "alt_logo": "Logo bootstrap",
+            "title_logo": "Bootstrap 5",
             "id_progress": "skill-bootstrap",
             "progreso": 50,
             "title_progreso": "Progreso Bootstrap"
@@ -159,23 +175,9 @@
     "proyectos": [{
             "nombre": "Portfolio Full Stack",
             "logo": "assets/img/logo-proyectos-portfolio.jpg",
-            "id_img": "logo-fullstack",
-            "alt": "Logo proyectos",
-            "title": "Full Stack",
-            "inicio": "Jun 2022",
-            "fin": "Ene 2023",
-            "descripcion": [
-                "Tecnologías utilizadas:",
-                "Frontend: HTML - CSS- Bootstrap - Typescript - Angular (Javascript)",
-                "Backend: Java (Spring Boot) - MySQL"
-            ]
-        },
-        {
-            "nombre": "Portfolio Full Stack",
-            "logo": "assets/img/logo-proyectos-portfolio.jpg",
-            "id_img": "logo-fullstack",
-            "alt": "Logo proyectos",
-            "title": "Full Stack",
+            "id_logo": "logo-fullstack",
+            "alt_logo": "Logo proyectos",
+            "title_logo": "Full Stack",
             "inicio": "Jun 2022",
             "fin": "Ene 2023",
             "descripcion": [
@@ -184,6 +186,7 @@
                 "Backend: Java (Spring Boot) - MySQL"
             ]
         }
+
     ]
 }
 

@@ -9,3 +9,7 @@
     box-shadow: 0 5px 10px #181818;
     z-index: 1;
  }
+ .foto-perfil:hover{
+    transition: none;
+    transform:none;
+}

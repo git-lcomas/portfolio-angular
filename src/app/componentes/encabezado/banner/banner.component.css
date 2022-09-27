@@ -1,0 +1,9 @@
+.banner{
+    box-shadow: 0 5px 10px #181818;
+    border-radius: 0px;
+    z-index: 0;
+}
+.banner1:hover{
+    transition: none;
+    transform:none;
+}
